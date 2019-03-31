@@ -44,22 +44,41 @@ Window {
          id: particleSystem
     }
 
+//    Emitter {
+//        id: emitter
+//        anchors.centerIn: parent
+//        width: 160; height: 80
+//        system: particleSystem
+//        emitRate: 10
+//        lifeSpan: 1000
+//        lifeSpanVariation: 500
+//        size: 16
+//        endSize: 32
+//    }
     Emitter {
         id: emitter
         anchors.centerIn: parent
-        width: 160; height: 80
+        width: 360; height: 180
         system: particleSystem
-        emitRate: 10
+        emitRate: 20
         lifeSpan: 1000
-        lifeSpanVariation: 500
-        size: 16
-        endSize: 32
+        lifeSpanVariation: 1000
+        size: 32
+        endSize: 10
+        sizeVariation: 5
+    }
 
 
     ImageParticle {
         source: "qrc:/2.png"
         system: particleSystem
+//        color: '#FFD700'
+        colorVariation: 0.2
+        rotation: 0
+        rotationVariation: 360
+        rotationVelocity: 30
+        rotationVelocityVariation: 12
+        entryEffect: ImageParticle.Scale
     }
-}
 
 }
