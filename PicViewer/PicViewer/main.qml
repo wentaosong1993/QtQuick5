@@ -10,6 +10,10 @@ Window {
     height: 480
     minimumWidth: 480
     minimumHeight: 360
+    Rectangle {
+        anchors.fill: parent
+        color: "red"
+    }
 
     BusyIndicator {
         id: busy
