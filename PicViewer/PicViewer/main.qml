@@ -1,16 +1,15 @@
 ﻿import QtQuick 2.2
 import QtQuick.Window 2.1
-//import QtQuick.Controls 1.2
 import QtQuick.Controls 1.4 as Controls_1_4
 import QtQuick.Controls.Styles 1.2
 import QtQuick.Dialogs 1.1
 
-Window {
+Item {
     visible: true
     width: 600
     height: 480
-    minimumWidth: 480
-    minimumHeight: 360
+//    minimumWidth: 480
+//    minimumHeight: 360
     Rectangle {
         anchors.fill: parent
         color: "red"
@@ -45,7 +44,7 @@ Window {
                 busy.running = false
             }
             else if(status === Image.Error) {
-                busy.running = false]
+                busy.running = false
                 stateLabel.visible = true
                 stateLabel.text = "Error"
             }
