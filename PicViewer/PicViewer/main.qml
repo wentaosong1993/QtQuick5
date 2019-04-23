@@ -45,7 +45,7 @@ Window {
                 busy.running = false
             }
             else if(status === Image.Error) {
-                busy.running = false
+                busy.running = false]
                 stateLabel.visible = true
                 stateLabel.text = "Error"
             }
@@ -90,6 +90,8 @@ Window {
             imageViewer.source = fileDialog.fileUrl
             var imageFile = new String(fileDialog.fileUrl)
             imagePath.text = imageFile.slice(8)
+            console.debug("debug:" + imagePath.text + "\n" + imageFile)
+
         }
     }
 }
