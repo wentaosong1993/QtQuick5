@@ -4,7 +4,7 @@ import QtQuick.Controls 1.4 as Controls_1_4
 import QtQuick.Controls.Styles 1.2
 import QtQuick.Dialogs 1.1
 
-Item {
+Window {
     visible: true
     width: 600
     height: 480
@@ -88,9 +88,12 @@ Item {
         onAccepted: {
             imageViewer.source = fileDialog.fileUrl
             var imageFile = new String(fileDialog.fileUrl)
-            imagePath.text = imageFile.slice(8)
+            imagePath.text = imageFile.slice(8,0)//slice提取从index = 8 的字符后的子串数据
             console.debug("debug:" + imagePath.text + "\n" + imageFile)
-
+/*
+qml: debug:C:/Users/Administrator/Desktop/IMG_0625.JPG
+file:///C:/Users/Administrator/Desktop/IMG_0625.JPG
+*/
         }
     }
 }

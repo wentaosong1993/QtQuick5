@@ -247,59 +247,21 @@ release\main.obj: ..\PicViewer\main.cpp ..\..\..\..\Qt\5.7\msvc2015\include\QtGu
 		..\..\..\..\Qt\5.7\msvc2015\include\QtCore\qshareddata.h \
 		..\..\..\..\Qt\5.7\msvc2015\include\QtCore\qsharedpointer_impl.h \
 		..\..\..\..\Qt\5.7\msvc2015\include\QtCore\qsize.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtQuick\QQuickView \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtQuick\qquickview.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtQuick\qquickwindow.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtQuick\qtquickglobal.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtGui\qopengl.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtCore\qt_windows.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtANGLE\GLES3\gl3.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtANGLE\GLES3\gl3platform.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtANGLE\KHR\khrplatform.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtANGLE\GLES2\gl2.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtANGLE\GLES2\gl2platform.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtGui\qopengles2ext.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtGui\qopenglext.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtGui\qwindow.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtCore\QObject \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtCore\QEvent \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtCore\QMargins \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtCore\qmargins.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtCore\QRect \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtCore\qrect.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtGui\qsurface.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtGui\qsurfaceformat.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtGui\qicon.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtGui\qpixmap.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtGui\qpaintdevice.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtGui\qcolor.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtGui\qrgb.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtGui\qrgba64.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtGui\qimage.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtGui\qpixelformat.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtGui\qtransform.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtGui\qmatrix.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtGui\qpolygon.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtGui\qregion.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtCore\qdatastream.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtCore\qline.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtGui\qpainterpath.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtGui\qcursor.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtGui\qevent.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtGui\qkeysequence.h \
+		..\..\..\..\Qt\5.7\msvc2015\include\QtQml\QQmlApplicationEngine \
+		..\..\..\..\Qt\5.7\msvc2015\include\QtQml\qqmlapplicationengine.h \
+		..\..\..\..\Qt\5.7\msvc2015\include\QtQml\qqmlengine.h \
 		..\..\..\..\Qt\5.7\msvc2015\include\QtCore\qurl.h \
 		..\..\..\..\Qt\5.7\msvc2015\include\QtCore\qurlquery.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtCore\qfile.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtCore\qfiledevice.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtGui\qvector2d.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtGui\qtouchdevice.h \
+		..\..\..\..\Qt\5.7\msvc2015\include\QtQml\qjsengine.h \
+		..\..\..\..\Qt\5.7\msvc2015\include\QtQml\qjsvalue.h \
+		..\..\..\..\Qt\5.7\msvc2015\include\QtQml\qtqmlglobal.h \
 		..\..\..\..\Qt\5.7\msvc2015\include\QtQml\qqml.h \
 		..\..\..\..\Qt\5.7\msvc2015\include\QtQml\qqmlprivate.h \
-		..\..\..\..\Qt\5.7\msvc2015\include\QtQml\qtqmlglobal.h \
 		..\..\..\..\Qt\5.7\msvc2015\include\QtQml\qqmlparserstatus.h \
 		..\..\..\..\Qt\5.7\msvc2015\include\QtQml\qqmlpropertyvaluesource.h \
 		..\..\..\..\Qt\5.7\msvc2015\include\QtQml\qqmllist.h \
 		..\..\..\..\Qt\5.7\msvc2015\include\QtCore\qmetaobject.h \
+		..\..\..\..\Qt\5.7\msvc2015\include\QtQml\qqmlerror.h \
 		..\..\..\..\Qt\5.7\msvc2015\include\QtQml\qqmldebug.h
 
 release\qrc_qml.obj: release\qrc_qml.cpp 
