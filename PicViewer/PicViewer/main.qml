@@ -1,6 +1,7 @@
 ﻿import QtQuick 2.2
 import QtQuick.Window 2.1
-import QtQuick.Controls 1.2
+//import QtQuick.Controls 1.2
+import QtQuick.Controls 1.4 as Controls_1_4
 import QtQuick.Controls.Styles 1.2
 import QtQuick.Dialogs 1.1
 
@@ -15,7 +16,7 @@ Window {
         color: "red"
     }
 
-    BusyIndicator {
+   Controls_1_4.BusyIndicator {
         id: busy
         running: false
         anchors.centerIn: parent
@@ -36,14 +37,14 @@ Window {
         anchors.fill: parent
         fillMode: Image.PreserveAspectFit
         onStateChanged: {
-            if(imageViewer.state === Image.Loading) {
+            if(status === Image.Loading) {
                 busy.running = true
                 stateLabel.visible = false
             }
-            else if(imageViewer.state === Image.Ready) {
+            else if(status === Image.Ready) {
                 busy.running = false
             }
-            else if(imageViewer.status === Image.Error) {
+            else if(status === Image.Error) {
                 busy.running = false
                 stateLabel.visible = true
                 stateLabel.text = "Error"
@@ -51,7 +52,7 @@ Window {
         }
     }
 
-    Button {
+    Controls_1_4.Button {
         id: openFile
         text: "Open"
         anchors.left: parent.left
